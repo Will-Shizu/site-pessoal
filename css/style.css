@@ -48,14 +48,14 @@ a:hover, a:active {
 	float: left;
 	width: 20%;
 	padding: 15px;
-	padding-top: 20px;
+	padding-top: 30px;
 	box-shadow: 0px -3px 3px rgba(0,0,0,.1);
 }
 
 #perfil img {
 	display: block;
 	max-width: 99%;
-	border-radius: 10%;
+	border-radius: 8%;
 	box-shadow: 0px 0px 5px rgba(0,0,0,.2);
 	transition: ease-out box-shadow 0.3s;
 }
@@ -73,13 +73,14 @@ a:hover, a:active {
 	padding-top: 13px;
 	padding-left: 0;
 	font-size: 1.65em;
+	opacity: 0.95;
 }
 
 #perfil #titulos h2 {
 	padding: 2.5px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	padding-left: 0;
-	font-size: 1.25em;
+	font-size: 1.24em;
 	opacity: 0.6;
 }
 
@@ -164,6 +165,7 @@ a:hover, a:active {
 		width: 100%;
 		padding-right: 0;
 		box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+		padding-top: 20px;
 	}
 
 	#perfil img {
@@ -194,8 +196,13 @@ a:hover, a:active {
 		float: left;
 		width: 100%;
 		border-right: 1px solid #DDDDDD;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 5px;
+		padding-right: 15px;
+		text-align: justify;
+	}
+
+	#corpo .nota {
+		text-align: left;
 	}
 }
 
