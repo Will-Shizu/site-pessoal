@@ -150,14 +150,14 @@ a:hover, a:active {
 
 #corpo .nota {
 	text-indent: 0px;
-	margin-top: 20px;
+	margin-top: 35px;
 	padding: 13px;
 	padding-left: 5px
 	padding-right: 5px;
 	background-color: #EEEEEE;
 	border-radius: 5px;
 	box-shadow: 0px 0px 5px rgba(0,0,0,.2);
-	line-height: 20px;
+	line-height: 21px;
 }
 
 /* DESING RESPONSIVO */
@@ -214,7 +214,7 @@ a:hover, a:active {
 	}
 
 	#corpo .nota {
-		line-height: 21px;
+		text-align: left; 
 	}
 }
 
@@ -230,6 +230,7 @@ a:hover, a:active {
 
 	#corpo {
 		width: 65%;
+		padding-right: 30px;
 	}
 }
 
@@ -245,5 +246,6 @@ a:hover, a:active {
 
 	#corpo {
 		width: 70%;
+		padding-right: 40px;
 	}
 }
